@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top right, #65dfc9, #6cdbed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Glass{
+    width: 60%;
+    height: 80vh;
+    background-color: white;
+    background: linear-gradient( 
+    to bottom right, 
+    rgba(255, 255, 255, 0.7), 
+    rgba(255, 255, 255, 0.3));
+    border-radius: 2rem;
+    backdrop-filter: blur(1rem);
+    z-index: 1;
+}
+
+.Circle1,
+.Circle2{
+    height: 200px;
+    width: 200px;
+    background: white;background: linear-gradient( 
+        to bottom right, 
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.3));
+        border-radius: 50%;
+    position: absolute;
+}
+
+.Circle1{
+    top: 15px;
+    right: 10rem;
+}
+.Circle2{
+    bottom: 15px;
+    left: 10rem;
+}
